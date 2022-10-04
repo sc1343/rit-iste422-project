@@ -1,5 +1,7 @@
 { pkgs }: {
     deps = [
+        pkgs.busybox
+        pkgs.gradle_6
         pkgs.graalvm17-ce
         pkgs.maven
         pkgs.replitPackages.jdt-language-server
